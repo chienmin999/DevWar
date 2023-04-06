@@ -64,3 +64,12 @@ html {
     background-image: url(./imges/second_oclock.png);
   
   }
+
+  .cli {
+    font-size: 30px;
+    justify-content: center;
+    margin: auto;
+    padding: 0%;
+    width: 100%;
+    height: 50px;
+  }
