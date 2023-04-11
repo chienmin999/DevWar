@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap");
 
 html {
     background: #fff url(./imges/white-wall-living-room.jpg);
@@ -6,9 +6,9 @@ html {
     font-family: "helvetica neue";
     text-align: center;
     font-size: 10px;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     font-size: 2rem;
     display: flex;
@@ -16,9 +16,9 @@ html {
     min-height: 100vh;
     align-items: center;
     position: relative;
-  }
-  
-  .clock {
+}
+
+.clock {
     border: 2px solid black;
     background-color: rgb(255 255 255);
     box-shadow: 0px 0px 16px rgb(0 0 0 / 50%);
@@ -32,15 +32,15 @@ html {
     right: 10%;
     position: absolute;
     padding: 2rem;
-  }
-  
-  .clock-face {
+}
+
+.clock-face {
     position: relative;
     width: 100%;
     height: 100%;
-  }
-  
-  .hand {
+}
+
+.hand {
     width: 190px;
     height: 20px;
     background-repeat: no-repeat;
@@ -49,48 +49,44 @@ html {
     transform-origin: 150px 10px;
     position: absolute;
     top: calc(50% - 10px);
-    right: calc( 50% - 40px);
+    right: calc(50% - 40px);
     transform: rotate(90deg);
-  }
-  
-  .hour-hand {
+}
+
+.hour-hand {
     background-image: url(./images/hour_oclock.jpg);
+}
 
-  }
-  
-  .min-hand {
+.min-hand {
     background-image: url(./imges/minute_oclock.png);
-  }
-  
-  .second-hand {
+}
+
+.second-hand {
     background-image: url(./imges/second_oclock.png);
-  
-  }
+}
 
- 
-
- .link {
+.link {
     margin: 0 auto;
     width: 50%;
-  }
+}
 
-  .name {
+.name {
     font-size: 50px;
     color: blue;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;  
-  }
+    font-family: "Inter", sans-serif;
+}
 
-  .chien {
+.chien {
     color: blue;
     font-size: 40px;
-  }
+}
 
-  div button {
+div button {
     font-size: 30px;
     border-radius: 8px;
-  }
+}
 
-  div button a {
+div button a {
     text-decoration: none;
-  }
+}
